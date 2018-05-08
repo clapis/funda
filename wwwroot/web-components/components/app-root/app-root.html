@@ -1,0 +1,33 @@
+<script type="module" src="app-root.js"></script>
+
+<template id="app-root-template">
+    <style>
+        @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+        @import "components/app-root/app-root.css";
+    </style>
+
+    <div class="container">
+        <div class="intro-header">
+            <h2>Funda Statistics</h2>
+            <p class="lead">
+                <span class="d-block">Welcome to Funda Statistics Dashboard!</span>
+                <span class="d-block">Here you will be able to see some of the main statistics regarding our Makelaars.</span>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <stats-card statistic="InAmsterdam">
+                    <span slot="title">Top Makelaars Amsterdam</span>
+                    <span slot="description">These are the top 10 Makelaars with the most objects listed for sale in Amsterdam</span>
+                </stats-card>
+            </div>
+            <div class="col-md-6 mb-2">
+                <stats-card statistic="InAmsterdamWithGarden">
+                    <span slot="title">Top Tuin Makelaars Amsterdam</span>
+                    <span slot="description">These are the top 10 Makelaars with the most objects with a tuin listed for sale in Amsterdam</span>
+                </stats-card>
+            </div>
+        </div>
+    </div>
+</template>

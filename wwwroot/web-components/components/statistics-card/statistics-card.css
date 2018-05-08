@@ -1,0 +1,15 @@
+.loading-text, .error-text {
+    display: none;
+}
+
+:host-context(.loading) .loading-text {
+    display: block;
+}
+
+:host-context(.error) .error-text {
+    display: block;
+}
+
+:host-context(.error)table {
+    display: none;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Funda Statistics</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="intro-header">
+            <h2>Funda Statistics</h2>
+            <p class="lead">
+                <span class="d-block">Welcome to Funda Statistics Dashboard!</span>
+                <span class="d-block">Here you will be able to see some of the main statistics regarding our Makelaars.</span>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <div class="stats-card"
+                     data-stats-card="InAmsterdam" 
+                     data-stats-card-title="Top Makelaars Amsterdam"
+                     data-stats-card-description="These are the top 10 Makelaars with the most objects listed for sale in Amsterdam">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="stats-card"
+                     data-stats-card="InAmsterdamWithGarden" 
+                     data-stats-card-title="Top Tuin Makelaars Amsterdam"
+                     data-stats-card-description="These are the top 10 Makelaars with the most objects with a tuin listed for sale in Amsterdam">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/services/statistics.service.js"></script>
+    <script src="js/components/statistics-card.js"></script>
+</body>
+
+</html>

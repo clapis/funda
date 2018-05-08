@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.intro-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.stats-card .loading-text,.error-text {
+    display: none;
+}
+
+.stats-card.loading .loading-text {
+    display: block;
+}
+
+.stats-card.error .error-text {
+    display: block;
+}
+
+.stats-card.error table {
+    display: none;
+}
+
+
